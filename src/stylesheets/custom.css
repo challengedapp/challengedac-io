@@ -133,6 +133,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .logo_transition {
+    margin-top: 1rem 0 !important;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -213,6 +216,12 @@
   }
   .currency_included {
     padding-top: 3rem;
+  }
+  .logo_transition {
+    margin-bottom: 3rem !important;
+  }
+  .crypto h3 {
+    margin-top: 6rem !important;
   }
 }
 

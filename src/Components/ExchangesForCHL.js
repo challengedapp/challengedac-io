@@ -16,7 +16,7 @@ function ExchangesForCHL() {
           </h4>
         </div>
         <div className="grid gap-10  lg:max-w-screen-lg sm:grid-cols-4 lg:grid-cols-8 partners">
-          <div className="flex  flex-col items-center">
+          <div className="flex  flex-col items-center m-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition "
               src="/images/alcor.png"
@@ -27,7 +27,7 @@ function ExchangesForCHL() {
             </h3>
           </div>
 
-          <div className="flex  flex-col items-center">
+          <div className="flex  flex-col items-center m-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition "
               src="/images/newdex.png"
@@ -38,7 +38,7 @@ function ExchangesForCHL() {
             </h3>
           </div>
 
-          <div className="flex  flex-col items-center">
+          <div className="flex  flex-col items-center m-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition "
               src="/images/wombat.png"

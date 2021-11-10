@@ -3,7 +3,7 @@ import React from "react";
 function CryptoCurrenciesIncluded() {
   return (
     <div>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 crypto">
         <div className=" mb-10 lg:max-w-xl lg:mt-20 sm:mt-20 ">
           <h2 className="inline-block py-px mb-4 text-2xl font-semibold tracking-wider text-teal-900  uppercase rounded-full bg-teal-accent-400 currency_included">
             Cryptocurrencies Included
@@ -17,7 +17,7 @@ function CryptoCurrenciesIncluded() {
           </h4>
         </div>
         <div className="grid gap-10  lg:max-w-screen-lg sm:grid-cols-4 lg:grid-cols-8 partners">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-1 rounded-full  p-2 shadow-md border logo_transition"
               src="/images/sand.png"
@@ -26,7 +26,7 @@ function CryptoCurrenciesIncluded() {
             <h3 className="font-bold text-xl absolute mt-20 uppercase">Sand</h3>
           </div>
 
-          <div className="flex  flex-col items-center">
+          <div className="flex  flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition "
               src="/images/eos.png"
@@ -35,7 +35,7 @@ function CryptoCurrenciesIncluded() {
             <h3 className="font-bold text-xl  absolute mt-20 uppercase">eos</h3>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition"
               src="/images/chl.png"
@@ -44,7 +44,7 @@ function CryptoCurrenciesIncluded() {
             <h3 className="font-bold text-xl absolute mt-20 uppercase">chl</h3>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition"
               src="/images/ebtc.png"
@@ -53,7 +53,7 @@ function CryptoCurrenciesIncluded() {
             <h3 className="font-bold text-xl absolute mt-20 uppercase">ebtc</h3>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition"
               src="/images/eeth.png"
@@ -62,7 +62,7 @@ function CryptoCurrenciesIncluded() {
             <h3 className="font-bold text-xl absolute mt-20 uppercase">eeth</h3>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition"
               src="/images/sense.png"
@@ -73,7 +73,7 @@ function CryptoCurrenciesIncluded() {
             </h3>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition"
               src="/images/dapp.png"
@@ -82,7 +82,7 @@ function CryptoCurrenciesIncluded() {
             <h3 className="font-bold text-xl absolute mt-20 uppercase">dapp</h3>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition"
               src="/images/kanda.png"
@@ -93,7 +93,7 @@ function CryptoCurrenciesIncluded() {
             </h3>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition"
               src="/images/vig.png"
@@ -102,7 +102,7 @@ function CryptoCurrenciesIncluded() {
             <h3 className="font-bold text-xl absolute mt-20 uppercase">vig</h3>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition"
               src="/images/puml.png"

@@ -17,7 +17,7 @@ function WalletForCHL() {
           </h4>
         </div>
         <div className="grid gap-10  lg:max-w-screen-lg sm:grid-cols-4 lg:grid-cols-8 partners">
-          <div className="flex  flex-col items-center">
+          <div className="flex  flex-col items-center m-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition "
               src="/images/wombat.png"
@@ -28,7 +28,7 @@ function WalletForCHL() {
             </h3>
           </div>
 
-          <div className="flex  flex-col items-center">
+          <div className="flex  flex-col items-center m-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition "
               src="/images/eos.png"
@@ -37,7 +37,7 @@ function WalletForCHL() {
             <h3 className="font-bold text-xl  absolute mt-20 uppercase">eos</h3>
           </div>
 
-          <div className="flex  flex-col items-center">
+          <div className="flex  flex-col items-center m-2">
             <img
               className="object-cover w-20 h-20 mb-2 rounded-full p-2 shadow-md border logo_transition "
               src="/images/meetone.png"
