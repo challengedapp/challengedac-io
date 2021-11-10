@@ -1,0 +1,308 @@
+.text_overlay {
+  background: -webkit-linear-gradient(360deg, #a32932, #333650);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mobile_app {
+  height: 80vh;
+}
+.logo_transition {
+  transition: all 0.5s cubic-bezier(0.4, 0.24, 0.83, 0.67);
+}
+.logo_transition:hover {
+  margin-top: -1rem;
+}
+.guide_display {
+  right: 22rem;
+}
+.dis_nav {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .hero {
+    width: 80%;
+  }
+  .hero_buttons {
+    width: 60%;
+    margin-left: -0.1rem;
+    margin: auto;
+  }
+  .nav_bg {
+    background-color: rgba(255, 255, 255, 0.884);
+  }
+  .challenge_nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .receive_rewards {
+    flex-direction: column-reverse;
+  }
+
+  .appStore {
+    width: 120px !important;
+    text-align: center;
+  }
+  .mobile_app {
+    width: 100%;
+    height: 70vh;
+  }
+  .terms {
+    margin-top: 5.5rem;
+  }
+  .guide {
+    margin-left: 3.5rem;
+    display: none;
+  }
+  .guide_display {
+    right: 10rem;
+    top: -3rem;
+    display: none;
+  }
+  .dis_nav {
+    display: block;
+  }
+  .box_shadow {
+    box-shadow: none;
+    text-align: left;
+  }
+  .guide_display_none {
+    display: none !important;
+  }
+  .getting_start_data {
+    margin-top: 1rem !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 10px;
+  }
+  .hero {
+    width: 80%;
+    padding: 5rem 0;
+  }
+  .hero_buttons {
+    width: 80%;
+    margin-left: -0.1rem;
+  }
+  .appStore {
+    width: 80px !important;
+    text-align: center;
+  }
+  .appStore1 {
+    margin-left: -6rem;
+  }
+  .mobile_app {
+    width: 100%;
+    height: 60vh;
+  }
+  .receive_rewards {
+    flex-direction: column-reverse;
+  }
+  .social {
+    margin-left: -0.1rem;
+    margin-top: 1rem;
+  }
+  .guide_display {
+    right: -5rem;
+    top: -3rem;
+  }
+  .box_shadow {
+    box-shadow: none;
+    text-align: left;
+    width: 100%;
+    margin-left: 3rem;
+  }
+  .guide_display_none {
+    display: none !important;
+  }
+  .dev_image {
+    width: 5rem;
+    height: 5rem;
+  }
+  .one {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 10px;
+  }
+  .challenge_nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .hero {
+    width: 80%;
+    padding-top: 8rem !important;
+  }
+  .hero_buttons {
+    width: 80%;
+    margin-left: -0.1rem;
+  }
+  .appStore {
+    width: 80px !important;
+    text-align: center;
+  }
+  .appStore1 {
+    margin-left: -6rem;
+  }
+  .mobile_app {
+    width: 100%;
+    height: 50vh;
+  }
+  .receive_rewards {
+    flex-direction: column-reverse;
+  }
+  .getting_start_data {
+    width: 100%;
+  }
+  .social {
+    margin-left: -0.1rem;
+    margin-top: 1rem;
+  }
+  .deposites {
+    padding: 3rem 0;
+  }
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .white_paper {
+    width: 100px;
+    text-align: center;
+  }
+  .guide {
+    margin-left: 3.5rem;
+  }
+  .guide_display {
+    right: 4rem;
+    top: -3rem;
+  }
+  .guide_display_none {
+    display: none !important;
+  }
+  .box_shadow {
+    box-shadow: none;
+    text-align: left;
+  }
+
+  .dev_image {
+    width: 13rem !important;
+    height: 14rem;
+  }
+  .one {
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .currency_included {
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  html {
+    font-size: 10px;
+  }
+  .challenge_nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .hero {
+    width: 80%;
+    padding-top: 8rem !important;
+  }
+  .hero_buttons {
+    width: 80%;
+    margin-left: -0.1rem;
+  }
+  .appStore {
+    width: 80px !important;
+    text-align: center;
+  }
+  .appStore1 {
+    margin-left: -6rem;
+  }
+  .mobile_app {
+    width: 100%;
+    height: 50vh;
+  }
+  .receive_rewards {
+    flex-direction: column-reverse;
+  }
+  .getting_start_data {
+    width: 100%;
+  }
+  .social {
+    margin-left: -0.1rem;
+    margin-top: 1rem;
+  }
+  .deposites {
+    padding: 3rem 0;
+  }
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .white_paper {
+    width: 100px;
+    text-align: center;
+  }
+  .guide {
+    margin-left: 3.5rem;
+  }
+  .guide_display {
+    right: 4rem;
+    top: -3rem;
+  }
+  .guide_display_none {
+    display: none !important;
+  }
+  .box_shadow {
+    box-shadow: none;
+    text-align: left;
+  }
+
+  .dev_image {
+    width: 3rem;
+    height: 14rem;
+  }
+  .one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .currency_included {
+    padding-top: 3rem;
+  }
+  .dev_image {
+    width: 13rem !important;
+    height: 14rem;
+    margin: 0.3rem;
+  }
+  .one {
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
