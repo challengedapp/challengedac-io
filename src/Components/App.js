@@ -43,11 +43,11 @@ function App() {
             <Home />
           </Route>
 
-          <Route path="/gettingstarted" exact>
+          <Route path="/gettingstart" exact>
             <GettingStart />
           </Route>
 
-          <Route path="/deposits" exact>
+          <Route path="/deposite" exact>
             <DepositeFunds />
           </Route>
 
