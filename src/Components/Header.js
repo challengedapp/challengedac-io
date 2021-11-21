@@ -75,10 +75,10 @@ function Header(props) {
                   </button>
                 </p>
                 <p className="dis_nav">
-                  <NavLink to="/gettingstarted">Gettig Started</NavLink>
+                  <NavLink to="/gettingstart">Gettig Started</NavLink>
                 </p>
                 <p className="dis_nav">
-                  <NavLink to="/deposits"> How Deposit Funds</NavLink>
+                  <NavLink to="/deposite"> How Deposit Funds</NavLink>
                 </p>
                 <p className="dis_nav">
                   <NavLink to="/withdraw">How Withdraw Funds</NavLink>
