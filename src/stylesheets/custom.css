@@ -18,6 +18,15 @@
 .dis_nav {
   display: none;
 }
+.notfound {
+  width: 30%;
+  margin: auto;
+  padding-top: 7rem;
+}
+.notfound img {
+  width: 100%;
+  display: block;
+}
 
 @media screen and (max-width: 768px) {
   html {
@@ -78,6 +87,10 @@
   }
   .getting_start_data {
     margin-top: 1rem !important;
+  }
+  .notfound {
+    width: 70%;
+    padding-top: 9rem;
   }
 }
 @media screen and (max-width: 375px) {

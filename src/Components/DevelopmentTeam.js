@@ -89,11 +89,9 @@ function DevelopmentTeam() {
                   Narasimhulu Vasam
                 </p>
                 <p className="mb-4 text-xs text-gray-100">
-                  Full Stack Developer(MERN)
+                  Full Stack Developer (MERN)
                 </p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Expert in Fronted
-                </p>
+
                 <div className="flex items-center justify-center space-x-3">
                   <a
                     href="https://github.com/Narasimhuluv"

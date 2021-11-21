@@ -8,6 +8,7 @@ import DepositeFunds from "./DepositeFunds";
 import WithdrawFunds from "./WithdrawFunds";
 import About from "./About";
 import TermsCondition from "./TermsCondition";
+import NotFound from "./NotFound";
 
 function App() {
   var [toggle, setToggle] = useState(false);
@@ -60,6 +61,9 @@ function App() {
 
           <Route path="/terms-condition" exact>
             <TermsCondition />
+          </Route>
+          <Route path="*" exact>
+            <NotFound />
           </Route>
         </Switch>
       </main>
