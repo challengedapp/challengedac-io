@@ -14,7 +14,7 @@ function Home() {
       <ReceiveRewards />
       <ReacentChallenges />
       <CoreTeam />
-      <DevelopmentTeam />
+      {/* <DevelopmentTeam /> */}
       {/* <CommunityThoughts /> */}
       <Desclaimer />
     </div>

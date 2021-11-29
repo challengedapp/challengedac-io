@@ -73,17 +73,17 @@ function CoreTeam() {
           <div className="flex justfiy-start">
             <img
               className="32  h-32  p-2  mr-4 rounded-full shadow border "
-              src="/images/profiles/narendra.jpg"
+              src="/images/profiles/narasimha.jpg"
               alt="Person"
             />
             <div className="flex flex-col">
               <p className="text-lg font-bold">
-                Palacharla Narendra Babu (Founding Member)
+                Narasimhulu Vasam (Front-end Developer)
               </p>
               <p className="text-sm text-gray-800">
                 Has a background as a software engineer and is an expert in
-                cybersecurity. Palacharla Narendra has many years experience
-                building communities around blockchain technologies and has
+                Front-end Development. Narasimhulu Vasam has many years
+                experience building User Interfaces, resusble components and has
                 helped projects expanded their reach and impact.
               </p>
             </div>
