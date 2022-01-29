@@ -7,13 +7,10 @@ function Hero() {
         <div className="w-full lg:w-1/2 sm:mt-40">
           <div className="lg:max-w-3xl  py-2">
             <h2 className="text-2xl font-medium text-center tracking-wide text-gray-800 dark:text-white lg:text-4xl ">
-              Take control of the applications you use and the value they
-              create!
+            The world's first Dapp to bring challenges to the blockchain
             </h2>
             <p className=" text-gray-600 dark:text-gray-300 my-6 text-center">
-              The challenge community is committed to proving numbers a variety
-              of challenges that users can participate in tasks for real
-              blockchain rewards.
+            The ChallengeEOS application is a Smart Chain mechanism challenge tool used to set up or complete Geo-fencing or Task challenges for real-time Blockchain rewards.
             </p>
             <div className="flex items-center justify-center w-5/12 m-auto mt-8 hero_buttons">
               <a

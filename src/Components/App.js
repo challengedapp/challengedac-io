@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import { Switch, Route } from "react-router-dom";
-import Home from "./Home";
-import GettingStart from "./GettingStart";
-import DepositeFunds from "./DepositeFunds";
-import WithdrawFunds from "./WithdrawFunds";
-import About from "./About";
-import TermsCondition from "./TermsCondition";
-import NotFound from "./NotFound";
+import React, { useState } from 'react';
+import Footer from './Footer';
+import Header from './Header';
+import { Switch, Route } from 'react-router-dom';
+import Home from './Home';
+import GettingStart from './GettingStart';
+import DepositeFunds from './DepositeFunds';
+import WithdrawFunds from './WithdrawFunds';
+import About from './About';
+import TermsCondition from './TermsCondition';
+import NotFound from './NotFound';
 
 function App() {
   var [toggle, setToggle] = useState(false);
@@ -39,30 +39,30 @@ function App() {
       </header>
       <main onClick={handleCloseToggle}>
         <Switch>
-          <Route path="/" exact>
+          <Route path='/' exact>
             <Home />
           </Route>
 
-          <Route path="/gettingstart" exact>
+          <Route path='/gettingstart' exact>
             <GettingStart />
           </Route>
 
-          <Route path="/deposite" exact>
+          <Route path='/deposite' exact>
             <DepositeFunds />
           </Route>
 
-          <Route path="/withdraw" exact>
+          <Route path='/withdraw' exact>
             <WithdrawFunds />
           </Route>
 
-          <Route path="/about" exact>
+          <Route path='/about' exact>
             <About />
           </Route>
 
-          <Route path="/terms-condition" exact>
+          <Route path='/terms-condition' exact>
             <TermsCondition />
           </Route>
-          <Route path="*" exact>
+          <Route path='*' exact>
             <NotFound />
           </Route>
         </Switch>
