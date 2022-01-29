@@ -18,7 +18,7 @@ function ReacentChallenges() {
             </h2>
             <p className=' text-gray-600 w-9/12 m-auto text-center dark:text-gray-300 my-6'>
               Participate in all the challenges available in our app and be
-              rewarded with various cryptocurrency
+              rewarded with various cryptocurrencies
             </p>
           </div>
         </div>
